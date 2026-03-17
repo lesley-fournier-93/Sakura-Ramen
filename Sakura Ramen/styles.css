@@ -1,0 +1,564 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Header*/
+
+.main-container {
+  font-family: "Raleway", sans-serif;
+  height: 100vh;
+  background-image: url(img/hero_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.sakura-logo {
+  height: 64px;
+  width: 64px;
+}
+.menuBar {
+  height: 112px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.menuLink {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.tel-btn {
+  font-size: 24px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  border-color: white;
+  border-style: groove;
+  padding: 10px 15px;
+}
+
+.tel-btn:hover {
+  background-color: rgb(240, 144, 144);
+  text-decoration: none !important;
+}
+
+.tel-icon {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*---------------------------------*/
+
+.headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.h1 {
+  font-size: 96px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 13px;
+}
+.span {
+  font-size: 24px;
+  color: white;
+}
+
+/* middle-space (How to order)*/
+
+.headline-two {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: #9f0908;
+  margin-top: 120px;
+  text-align: center;
+}
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-icon {
+  font-family: "Economica", sans-serif;
+  font-size: 56px;
+  margin-left: 35px;
+  font-weight: bold;
+  margin-bottom: 120px;
+}
+.icon-noodle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+
+.icon-broth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+
+.icon-egg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 16px;
+}
+
+.order-icon {
+  display: flex;
+  justify-content: space-around;
+}
+.order-jpg {
+  width: 128px;
+}
+
+.order-advice {
+  font-family: "Economica", sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+
+.space-text {
+  margin: 16px;
+}
+
+/* middle-space (menu-part)*/
+
+.main-div-menu {
+  background-image: url(img/section_our_menu_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 64px;
+  padding-bottom: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2-ourMenu {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: #9f0908;
+  margin: 120px 0 64px 0;
+  text-align: center;
+}
+
+.ourMenu-jpg1 {
+  width: 352px;
+  height: 352px;
+}
+.ourMenu-jpg2 {
+  width: 352px;
+  height: 352px;
+  margin-top: 56px;
+}
+.ourMenu-jpg3 {
+  width: 352px;
+  height: 352px;
+  margin-top: 56px;
+  margin-bottom: 120px;
+}
+
+.ourMenu-div1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 160px;
+}
+.p-menu-1-2-3 {
+  font-family: "Economica", sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+}
+.tableOne {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #675e54;
+  margin-left: 80px;
+}
+.header-table {
+  font-family: "Economica", sans-serif;
+  font-size: 56px;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 16px;
+  text-align: left;
+}
+.ourMenu-div2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-right: 160px;
+}
+.tableTwo {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #675e54;
+  margin-right: 80px;
+}
+.ourMenu-div3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 160px;
+}
+.tableThree {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #675e54;
+  margin-left: 80px;
+}
+table {
+  width: 450px;
+}
+
+.space-text-menu {
+  margin: 8px;
+}
+
+tr td:first {
+  padding-right: 32px;
+}
+
+/*Googlemaps*/
+
+.map-maker-size {
+  height: 24px;
+  width: 24px;
+}
+.location-txt {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.find-us-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h2-find-us {
+  font-family: "Raleway", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: #9f0908;
+  margin: 120px 0 8px 0;
+  text-align: center;
+}
+
+.i-frame-size-position {
+  height: 600px;
+  width: 100%;
+  border: 0;
+}
+.span-spacing {
+  margin-bottom: 64px;
+}
+
+/* footer*/
+
+.footer-container {
+  height: 144px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-logo {
+  height: 44px;
+}
+.sakura-logo-footer {
+  display: none;
+}
+.footer-logo-size {
+  width: 40px;
+  height: 40px;
+}
+.change-img {
+  display: none;
+}
+
+/* middle-space (menu-part)*/
+@media (max-width: 1070px) {
+  .main-div-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h2-ourMenu {
+    margin: 72px 0 40px 0;
+    text-align: -webkit-center;
+  }
+  .div-responsive-mobile {
+    flex-direction: column;
+    align-items: center;
+  }
+  .margin-bottom-jpg {
+    margin-bottom: 32px;
+  }
+
+  .ourMenu-div1 {
+    margin-left: 0;
+  }
+  .ourMenu-div2 {
+    margin-right: 0;
+  }
+  .ourMenu-div3 {
+    margin-left: 0;
+  }
+
+  .table-media {
+    font-size: 24px;
+  }
+  .header-table {
+    font-size: 32px;
+    text-align: left;
+  }
+  .tableTwo {
+    margin-right: 0;
+  }
+  .tableThree {
+    margin-bottom: 72px;
+    margin-left: 0;
+  }
+  .h2-find-us {
+    margin: 96px 0 8px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  /* Header*/
+  .link-mobile {
+    display: none;
+  }
+
+  .smaller-mobile {
+    font-size: 18px;
+    padding: 5px 5px;
+  }
+
+  .h1 {
+    font-size: 44px;
+  }
+  .span {
+    font-size: 16px;
+  }
+
+  /*headline-header*/
+  .second-headline-mobile {
+    margin-top: 72px;
+    font-size: 40px;
+    text-align: -webkit-center;
+  }
+  /* middle-space (How to order)*/
+  .order-icon {
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  .icons-mobile {
+    width: 112px;
+    font-size: 32px;
+    gap: 8px;
+    padding-bottom: 32px;
+  }
+  /* middle-space (menu-part)*/
+  .main-div-menu {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .h2-ourMenu {
+    font-size: 40px;
+    text-align: center;
+  }
+  .ourMenu-div1 {
+    justify-content: center;
+    text-align: start;
+    margin-left: 0;
+  }
+  .tableTwo {
+    margin-right: 0;
+  }
+  .ourMenu-div2 {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .ourMenu-div3 {
+    margin-left: 0;
+    justify-content: center;
+    text-align: start;
+  }
+  .tableThree {
+    margin-left: 0;
+  }
+
+  .ourMenu-jpg2 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  .ourMenu-jpg3 {
+    justify-items: center;
+    align-items: center;
+    margin-top: 32px;
+  }
+
+  table td {
+    padding: 8px 0;
+    border-width: 0;
+  }
+}
+.padding-right {
+  padding-right: 0;
+}
+.map-mobile {
+  width: 16px;
+  height: 16px;
+}
+@media (max-width: 600px) {
+  .tableOne {
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .order-icon {
+    margin-left: 0px;
+  }
+  .jpg-mobile-order {
+    width: 112px;
+    height: 112px;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .change-img {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-logo-size {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media (max-width: 480px) {
+  /* middle-space (menu-part)*/
+
+  .jpg-320px {
+    width: 250px;
+    height: 250px;
+  }
+  .header-table {
+    font-size: 25px;
+    white-space: nowrap;
+  }
+  table {
+    width: 250px;
+  }
+  .tableOne {
+    margin-left: 0;
+  }
+  .table-media {
+    font-size: 15px;
+  }
+  /*Google-Maps*/
+  .txt-mobile {
+    font-size: 40px;
+  }
+  .txt-mobile-location {
+    font-size: 16px;
+  }
+  .smaller-mobile {
+    width: 16px;
+    height: 16px;
+  }
+  .span-spacing {
+    margin-bottom: 40px;
+  }
+  .h2-find-us {
+    margin: 0;
+  }
+}
+
+@media (max-width: 340px) {
+  .second-headline-mobile {
+    font-size: 25px;
+    margin-bottom: 32px;
+  }
+  .main-div-menu {
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 320px) {
+  /*header*/
+  .menuBar {
+    height: 64px;
+  }
+  .tel-btn {
+    padding: 3px 8px;
+    font-size: 19px;
+  }
+  .sakura-logo {
+    height: 40px;
+    width: 40px;
+  }
+  .h1 {
+    font-size: 32px;
+  }
+  .span {
+    font-size: 14px;
+  }
+  .main-div-menu {
+    padding-bottom: 0;
+  }
+  .txt-mobile-location {
+    font-size: 14px;
+  }
+}
